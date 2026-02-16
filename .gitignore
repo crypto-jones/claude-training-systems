@@ -4,3 +4,4 @@ output/
 *.log
 .next
 out
+.claude/
