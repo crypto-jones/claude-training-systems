@@ -1,0 +1,55 @@
+{
+    "current_version": "1.1",
+    "versions": {
+      "1.0": {
+        "released": "2026-01-01",
+        "sections": [
+          "Section 1: Hook + Context (0-5 min)",
+          "Section 2: Core Concepts + Demo Part 1 (5-15 min)",
+          "Section 3: Exercise 1 - Fix the Broken Code (15-23 min)",
+          "Section 4: Demo Part 2 - Advanced Patterns (23-33 min)",
+          "Section 5: Exercise 2 - Add a New Tool (33-40 min)",
+          "Section 6: Production Considerations (40-50 min)",
+          "Section 7: Q&A + Wrap (50-60 min)"
+        ],
+        "notable_changes": "Initial release"
+      },
+      "1.1": {
+        "released": "2026-02-01",
+        "sections": [
+          "Section 1: Hook + Context (0-5 min)",
+          "Section 2: Core Concepts + Demo Part 1 (5-15 min)",
+          "Section 3: Exercise 1 - Fix the Broken Code (15-23 min)",
+          "Section 4: Demo Part 2 - Advanced Patterns (23-33 min)",
+          "Section 5: Exercise 2 - Add a New Tool (33-40 min)",
+          "Section 6: Production Considerations (40-50 min) - REVISED: reformatted pitfalls as table, reduced from 4 to 3 pitfalls, tightened language",
+          "Section 7: Q&A + Wrap (50-60 min)"
+        ],
+        "notable_changes": "Section 6 reformatted: pitfalls moved to table format, prose reduced, Pitfall 4 moved to Quick Reference Card"
+      }
+    },
+    "exercises": {
+      "exercise_1": {
+        "name": "Fix the Broken Code",
+        "bugs": [
+          "bug1: Missing conversation history in second API call (conceptual - most common)",
+          "bug2: Wrong response content parsing - treating list as object (implementation)",
+          "bug3: Missing required fields in tool schema (design - most subtle)"
+        ],
+        "time_limit_minutes": 8,
+        "success_condition": "Claude responds with real weather data"
+      },
+      "exercise_2": {
+        "name": "Add a New Tool",
+        "task": "Add get_stock_price tool to working weather bot code",
+        "time_limit_minutes": 7,
+        "success_condition": "Claude calls both tools when asked about weather and stock price",
+        "stretch_prompt": "Should I wear a jacket in New York and is it a good day to buy Tesla?"
+      }
+    },
+    "known_problem_areas": [
+      "Section 6 energy drop - consistently low across formats",
+      "Bug 1 (conversation history) - hardest conceptual bug, may need stronger Demo Part 1 framing",
+      "Setup issues on Zoom - API key configuration takes longer than expected"
+    ]
+  }
