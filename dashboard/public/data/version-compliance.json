@@ -1,0 +1,39 @@
+{
+  "generated": "2026-02-16",
+  "latestVersion": "1.2",
+  "summary": {
+    "totalTrainers": 12,
+    "onLatest": 6,
+    "oneBehind": 3,
+    "twoPlusBehind": 3,
+    "stale": 1,
+    "notificationsQueued": 6
+  },
+  "byRegion": [
+    { "region": "APAC", "current": 3, "total": 4, "compliancePct": 75 },
+    { "region": "EMEA", "current": 2, "total": 6, "compliancePct": 33 },
+    { "region": "AMER", "current": 1, "total": 1, "compliancePct": 100 },
+    { "region": "LATAM", "current": 0, "total": 1, "compliancePct": 0 }
+  ],
+  "byUrgency": [
+    { "urgency": "CRITICAL", "count": 3, "label": "2+ versions behind" },
+    { "urgency": "HIGH", "count": 0, "label": "1 behind, inactive" },
+    { "urgency": "MEDIUM", "count": 3, "label": "1 version behind" },
+    { "urgency": "LOW", "count": 0, "label": "Current, inactive" },
+    { "urgency": "OK", "count": 6, "label": "Current, active" }
+  ],
+  "trainers": [
+    { "name": "Aisha Koroma", "region": "EMEA", "version": "1.0", "status": "2 VERSIONS BEHIND", "daysSinceAccess": 38, "sessionsDelivered": 2, "urgency": "CRITICAL" },
+    { "name": "Camille Dubois", "region": "EMEA", "version": "1.0", "status": "2 VERSIONS BEHIND", "daysSinceAccess": 61, "sessionsDelivered": 1, "urgency": "CRITICAL" },
+    { "name": "Tom Bergström", "region": "EMEA", "version": "1.0", "status": "2 VERSIONS BEHIND", "daysSinceAccess": 43, "sessionsDelivered": 2, "urgency": "CRITICAL" },
+    { "name": "Priya Patel", "region": "APAC", "version": "1.1", "status": "1 VERSION BEHIND", "daysSinceAccess": 20, "sessionsDelivered": 3, "urgency": "MEDIUM" },
+    { "name": "Daniel Osei", "region": "EMEA", "version": "1.1", "status": "1 VERSION BEHIND", "daysSinceAccess": 14, "sessionsDelivered": 4, "urgency": "MEDIUM" },
+    { "name": "Rodrigo Mendes", "region": "LATAM", "version": "1.1", "status": "1 VERSION BEHIND", "daysSinceAccess": 9, "sessionsDelivered": 3, "urgency": "MEDIUM" },
+    { "name": "Sarah Chen", "region": "APAC", "version": "1.2", "status": "CURRENT", "daysSinceAccess": 3, "sessionsDelivered": 7, "urgency": "OK" },
+    { "name": "Marcus Reid", "region": "EMEA", "version": "1.2", "status": "CURRENT", "daysSinceAccess": 7, "sessionsDelivered": 5, "urgency": "OK" },
+    { "name": "James Wright", "region": "AMER", "version": "1.2", "status": "CURRENT", "daysSinceAccess": 2, "sessionsDelivered": 9, "urgency": "OK" },
+    { "name": "Yuki Tanaka", "region": "APAC", "version": "1.2", "status": "CURRENT", "daysSinceAccess": 5, "sessionsDelivered": 6, "urgency": "OK" },
+    { "name": "Fatima Al-Hassan", "region": "EMEA", "version": "1.2", "status": "CURRENT", "daysSinceAccess": 6, "sessionsDelivered": 4, "urgency": "OK" },
+    { "name": "Mei-Ling Zhou", "region": "APAC", "version": "1.2", "status": "CURRENT", "daysSinceAccess": 8, "sessionsDelivered": 5, "urgency": "OK" }
+  ]
+}
