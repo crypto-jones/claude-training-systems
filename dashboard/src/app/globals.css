@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0e16;
+  --card: #111827;
+  --border: #1f2937;
+  --muted: #6b7280;
+  --text: #f9fafb;
+  --accent: #3b82f6;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --critical: #f43f5e;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
