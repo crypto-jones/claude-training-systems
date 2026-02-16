@@ -52,6 +52,8 @@ Output is in `out/`. Serve that folder with any static host.
 
    **https://crypto-jones.github.io/claude-training-systems/**
 
+   The build includes an empty **`.nojekyll`** file in `public/` so it ends up in `out/`. GitHub Pages uses Jekyll by default and ignores folders starting with `_` (including `_next/`). Deploying with `.nojekyll` disables Jekyll so the site is served as plain static files and the dashboard loads correctly.
+
 3. **Optional: GitHub Actions**  
    You can add a workflow that runs `npm run build` in `dashboard/` and deploys `out/` to `gh-pages` on push to `main`.
 
