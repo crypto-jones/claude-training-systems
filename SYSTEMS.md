@@ -1,5 +1,7 @@
 # Training Content Systems Design
 
+> Most training programs scale by adding people. This one scales by building systems. Here's how the content stays accurate, the trainers stay current, and the feedback loop stays closed.
+
 ---
 
 ## Table of Contents
@@ -412,11 +414,11 @@ All compliance calculations, urgency levels, and email content update automatica
 
 | Resource | Location |
 |---|---|
-| Master guide | `[Google Drive URL]` |
-| Trainer access URL | `[Stable published URL — never changes]` |
-| Feedback form | `[Google Form URL]` |
+| Master guide | [Claude API Tool Use — Trainer Enablement Guide](https://docs.google.com/document/d/1jg6vhhLjT9z6a6TsJAgN0V_eNZHNQtoZE0o2o6JV54Y/edit?usp=sharing) |
+| Trainer access URL | Same as master guide (view-only). Phase 2 moves to a stable published URL. |
+| Feedback form | `[PLACEHOLDER: Google Form URL]` |
 | Trainer records | `sample-data/trainer-versions.json` |
-| Feedback data | `feedback.csv` + `feedback_meta.json` |
-| Training team contact | `training-team@yourcompany.com` |
+| Feedback data | `sample-data/feedback.csv` + `sample-data/feedback_meta.json` |
+| Training team contact | `[PLACEHOLDER: training team email]` |
 | Weekly compliance report | `output/version-report.md` (generated each Monday) |
 | Monthly analysis reports | `reports/YYYY-MM.md` |
