@@ -9,10 +9,10 @@
  *   - [section-name]-advanced.md   (senior devs, faster pace, edge cases)
  *
  * Usage:
- *   node adapt-content.js --input section2-core-concepts.md
- *   node adapt-content.js --input section2.md --output-dir custom/path
- *   node adapt-content.js --input section2.md --audience beginners
- *   node adapt-content.js --input section2.md --audience advanced
+ *   node scripts/adapt-content.js --input section2-core-concepts.md
+ *   node scripts/adapt-content.js --input section2.md --output-dir custom/path
+ *   node scripts/adapt-content.js --input section2.md --audience beginners
+ *   node scripts/adapt-content.js --input section2.md --audience advanced
  */
 
 import dotenv from 'dotenv';

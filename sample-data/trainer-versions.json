@@ -1,0 +1,100 @@
+{
+    "trainers": [
+      {
+        "name": "Sarah Chen",
+        "email": "sarah.chen@acme.com",
+        "current_version": "1.2",
+        "last_accessed": "2026-02-14",
+        "sessions_delivered": 7,
+        "region": "APAC"
+      },
+      {
+        "name": "Marcus Reid",
+        "email": "marcus.reid@globex.com",
+        "current_version": "1.2",
+        "last_accessed": "2026-02-10",
+        "sessions_delivered": 5,
+        "region": "EMEA"
+      },
+      {
+        "name": "Priya Patel",
+        "email": "priya.patel@novatech.io",
+        "current_version": "1.1",
+        "last_accessed": "2026-01-28",
+        "sessions_delivered": 3,
+        "region": "APAC"
+      },
+      {
+        "name": "James Wright",
+        "email": "j.wright@streamline.co",
+        "current_version": "1.2",
+        "last_accessed": "2026-02-15",
+        "sessions_delivered": 9,
+        "region": "AMER"
+      },
+      {
+        "name": "Aisha Koroma",
+        "email": "aisha.k@finxcel.com",
+        "current_version": "1.0",
+        "last_accessed": "2026-01-10",
+        "sessions_delivered": 2,
+        "region": "EMEA"
+      },
+      {
+        "name": "Daniel Osei",
+        "email": "d.osei@praxis.dev",
+        "current_version": "1.1",
+        "last_accessed": "2026-02-03",
+        "sessions_delivered": 4,
+        "region": "EMEA"
+      },
+      {
+        "name": "Yuki Tanaka",
+        "email": "y.tanaka@helix.jp",
+        "current_version": "1.2",
+        "last_accessed": "2026-02-12",
+        "sessions_delivered": 6,
+        "region": "APAC"
+      },
+      {
+        "name": "Camille Dubois",
+        "email": "c.dubois@arclabs.fr",
+        "current_version": "1.0",
+        "last_accessed": "2025-12-18",
+        "sessions_delivered": 1,
+        "region": "EMEA"
+      },
+      {
+        "name": "Rodrigo Mendes",
+        "email": "r.mendes@vertex.br",
+        "current_version": "1.1",
+        "last_accessed": "2026-02-08",
+        "sessions_delivered": 3,
+        "region": "LATAM"
+      },
+      {
+        "name": "Fatima Al-Hassan",
+        "email": "f.alhassan@cydex.ae",
+        "current_version": "1.2",
+        "last_accessed": "2026-02-11",
+        "sessions_delivered": 4,
+        "region": "EMEA"
+      },
+      {
+        "name": "Tom Bergström",
+        "email": "t.bergstrom@nordic.se",
+        "current_version": "1.0",
+        "last_accessed": "2026-01-05",
+        "sessions_delivered": 2,
+        "region": "EMEA"
+      },
+      {
+        "name": "Mei-Ling Zhou",
+        "email": "ml.zhou@synapse.sg",
+        "current_version": "1.2",
+        "last_accessed": "2026-02-09",
+        "sessions_delivered": 5,
+        "region": "APAC"
+      }
+    ]
+  }

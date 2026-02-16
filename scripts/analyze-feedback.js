@@ -8,12 +8,12 @@
  * markdown report with actionable insights for content maintainers.
  *
  * Usage:
- *   node analyze-feedback.js
- *   node analyze-feedback.js --csv path/to/feedback.csv
- *   node analyze-feedback.js --meta path/to/feedback_meta.json
- *   node analyze-feedback.js --output path/to/report.md
- *   node analyze-feedback.js --since 2026-02-01   (filter by date)
- *   node analyze-feedback.js --version 1.1        (filter by guide version)
+ *   node scripts/analyze-feedback.js
+ *   node scripts/analyze-feedback.js --csv path/to/feedback.csv
+ *   node scripts/analyze-feedback.js --meta path/to/feedback_meta.json
+ *   node scripts/analyze-feedback.js --output path/to/report.md
+ *   node scripts/analyze-feedback.js --since 2026-02-01   (filter by date)
+ *   node scripts/analyze-feedback.js --version 1.1        (filter by guide version)
  */
 import dotenv from 'dotenv';
 dotenv.config();
