@@ -24,7 +24,7 @@ export function SectionEnergyChart({ data }: { data: SectionEnergy }) {
       <h2 className="text-lg font-semibold text-white">
         Energy by phase
       </h2>
-      <p className="mt-1 text-sm text-slate-400">
+      <p className="mt-1 text-sm text-slate-300">
         Average participant energy (1–5) · target ≥3.0
       </p>
       <div className="mt-6 h-72">
@@ -33,22 +33,26 @@ export function SectionEnergyChart({ data }: { data: SectionEnergy }) {
             data={chartData}
             margin={{ top: 0, right: 24, left: 0, bottom: 0 }}
           >
-            <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+            <CartesianGrid strokeDasharray="3 3" stroke="#475569" />
             <XAxis
               dataKey="name"
-              tick={{ fill: '#94a3b8', fontSize: 12 }}
+              tick={{ fill: '#e2e8f0', fontSize: 13 }}
             />
             <YAxis
-              tick={{ fill: '#94a3b8', fontSize: 12 }}
+              tick={{ fill: '#e2e8f0', fontSize: 13 }}
               domain={[0, 5]}
             />
             <ReferenceLine y={3} stroke="#10b981" strokeDasharray="4 4" />
             <Tooltip
               contentStyle={{
                 backgroundColor: '#1e293b',
-                border: '1px solid #334155',
+                border: '1px solid #475569',
                 borderRadius: '8px',
+                fontSize: '14px',
+                color: '#f8fafc',
               }}
+              labelStyle={{ color: '#f8fafc', fontWeight: 500 }}
+              itemStyle={{ color: '#e2e8f0' }}
               formatter={(value: number) => [value.toFixed(1), 'Avg energy']}
             />
             <Bar

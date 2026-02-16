@@ -73,15 +73,15 @@ export function KpiCards({
           key={card.label}
           className="rounded-xl border border-slate-800 bg-slate-900/80 p-4 shadow-sm"
         >
-          <p className="text-xs font-medium uppercase tracking-wider text-slate-500">
+          <p className="text-sm font-medium text-slate-300">
             {card.label}
           </p>
-          <p className="mt-2 text-2xl font-semibold tabular-nums text-white">
+          <p className="mt-2 text-2xl font-semibold tabular-nums tracking-tight text-white">
             {card.value}
           </p>
-          <p className="mt-0.5 text-xs text-slate-400">{card.sub}</p>
+          <p className="mt-1 text-sm text-slate-300">{card.sub}</p>
           <p
-            className={`mt-2 text-xs ${card.onTarget ? 'text-emerald-500' : 'text-amber-500'}`}
+            className={`mt-2 text-sm font-medium ${card.onTarget ? 'text-emerald-400' : 'text-amber-400'}`}
           >
             {card.onTarget ? 'On target' : 'Below target'} · {card.target}
           </p>

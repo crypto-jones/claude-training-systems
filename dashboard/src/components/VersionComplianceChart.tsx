@@ -30,7 +30,7 @@ export function VersionComplianceChart({ data }: { data: VersionCompliance }) {
       <h2 className="text-lg font-semibold text-white">
         Compliance by urgency
       </h2>
-      <p className="mt-1 text-sm text-slate-400">
+      <p className="mt-1 text-sm text-slate-300">
         Trainer count per notification tier (v{data.latestVersion})
       </p>
       <div className="mt-6 h-64">
@@ -40,21 +40,24 @@ export function VersionComplianceChart({ data }: { data: VersionCompliance }) {
             layout="vertical"
             margin={{ top: 0, right: 24, left: 0, bottom: 0 }}
           >
-            <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-            <XAxis type="number" tick={{ fill: '#94a3b8', fontSize: 12 }} />
+            <CartesianGrid strokeDasharray="3 3" stroke="#475569" />
+            <XAxis type="number" tick={{ fill: '#e2e8f0', fontSize: 13 }} />
             <YAxis
               type="category"
               dataKey="name"
               width={120}
-              tick={{ fill: '#94a3b8', fontSize: 11 }}
+              tick={{ fill: '#e2e8f0', fontSize: 13 }}
             />
             <Tooltip
               contentStyle={{
                 backgroundColor: '#1e293b',
-                border: '1px solid #334155',
+                border: '1px solid #475569',
                 borderRadius: '8px',
+                fontSize: '14px',
+                color: '#f8fafc',
               }}
-              labelStyle={{ color: '#f1f5f9' }}
+              labelStyle={{ color: '#f8fafc', fontWeight: 500 }}
+              itemStyle={{ color: '#e2e8f0' }}
               formatter={(value: number) => [value, 'Trainers']}
             />
             <Bar dataKey="count" radius={[0, 4, 4, 0]} maxBarSize={32}>
