@@ -1,4 +1,4 @@
 echo "node_modules/
 .env
 output/
-*.log" > .gitignore
+*.log" > .gitignorenode_modules/
