@@ -1,0 +1,14 @@
+{
+  "generated": "2026-02-16",
+  "byWeek": [
+    { "week": "2026-01-13", "weekLabel": "Jan 13", "sessions": 4, "ex1CompletionPct": 68, "ex2CompletionPct": 35, "avgClosingEnergy": 2.5 },
+    { "week": "2026-01-20", "weekLabel": "Jan 20", "sessions": 2, "ex1CompletionPct": 72, "ex2CompletionPct": 32, "avgClosingEnergy": 2.3 },
+    { "week": "2026-01-27", "weekLabel": "Jan 27", "sessions": 0, "ex1CompletionPct": null, "ex2CompletionPct": null, "avgClosingEnergy": null },
+    { "week": "2026-02-03", "weekLabel": "Feb 3", "sessions": 1, "ex1CompletionPct": 80, "ex2CompletionPct": 50, "avgClosingEnergy": 3.0 },
+    { "week": "2026-02-10", "weekLabel": "Feb 10", "sessions": 1, "ex1CompletionPct": 88, "ex2CompletionPct": 60, "avgClosingEnergy": 4.0 }
+  ],
+  "byVersion": [
+    { "version": "1.0", "sessions": 5, "ex1CompletionPct": 72.4, "ex2CompletionPct": 40.0, "avgClosingEnergy": 2.6 },
+    { "version": "1.1", "sessions": 3, "ex1CompletionPct": 81.0, "ex2CompletionPct": 51.7, "avgClosingEnergy": 3.3 }
+  ]
+}
