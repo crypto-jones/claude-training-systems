@@ -65,14 +65,14 @@ We use two-digit semantic versioning: `major.minor` (e.g., `1.2`). Every version
 
 ```mermaid
 flowchart TD
-    A["📝 Master Content\n(Author edits)"]
-    B["🤖 AI Adaptation\nadapt-content.js"]
-    C["✅ QA Review\nHuman sign-off"]
-    D["🚀 Publication\nStable URL updated"]
-    E["🔗 Trainer Access\nRead-only link"]
-    F["🎓 Delivery\nSession delivered"]
-    G["📊 Feedback\nfeedback.csv updated"]
-    H["🔍 Analysis\nanalyze-feedback.js"]
+    A["📝 Master Content<br/>(Author edits)"]
+    B["🤖 AI Adaptation<br/>adapt-content.js"]
+    C["✅ QA Review<br/>Human sign-off"]
+    D["🚀 Publication<br/>Stable URL updated"]
+    E["🔗 Trainer Access<br/>Read-only link"]
+    F["🎓 Delivery<br/>Session delivered"]
+    G["📊 Feedback<br/>feedback.csv updated"]
+    H["🔍 Analysis<br/>analyze-feedback.js"]
 
     A --> B
     B --> C
