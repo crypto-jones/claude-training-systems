@@ -16,6 +16,10 @@
 }
 
 body {
+  background-color: #0a0e16;
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   @apply bg-slate-950 text-[var(--text-primary)] antialiased;
 }
 
