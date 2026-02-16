@@ -25,7 +25,7 @@ export function ComplianceByRegionChart({ data }: { data: VersionCompliance }) {
       <h2 className="text-lg font-semibold text-white">
         Compliance by region
       </h2>
-      <p className="mt-1 text-sm text-slate-400">
+      <p className="mt-1 text-sm text-slate-300">
         % on latest version · target 90%
       </p>
       <div className="mt-6 h-64">
@@ -34,13 +34,13 @@ export function ComplianceByRegionChart({ data }: { data: VersionCompliance }) {
             data={chartData}
             margin={{ top: 0, right: 24, left: 0, bottom: 0 }}
           >
-            <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+            <CartesianGrid strokeDasharray="3 3" stroke="#475569" />
             <XAxis
               dataKey="region"
-              tick={{ fill: '#94a3b8', fontSize: 12 }}
+              tick={{ fill: '#e2e8f0', fontSize: 13 }}
             />
             <YAxis
-              tick={{ fill: '#94a3b8', fontSize: 12 }}
+              tick={{ fill: '#e2e8f0', fontSize: 13 }}
               domain={[0, 100]}
               tickFormatter={(v) => `${v}%`}
             />
@@ -48,9 +48,13 @@ export function ComplianceByRegionChart({ data }: { data: VersionCompliance }) {
             <Tooltip
               contentStyle={{
                 backgroundColor: '#1e293b',
-                border: '1px solid #334155',
+                border: '1px solid #475569',
                 borderRadius: '8px',
+                fontSize: '14px',
+                color: '#f8fafc',
               }}
+              labelStyle={{ color: '#f8fafc', fontWeight: 500 }}
+              itemStyle={{ color: '#e2e8f0' }}
               formatter={(value: number) => [value, 'Compliance %']}
               labelFormatter={(label, payload) =>
                 payload[0]?.payload

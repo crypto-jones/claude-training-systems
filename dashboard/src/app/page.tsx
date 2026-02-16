@@ -27,10 +27,10 @@ export default function DashboardPage() {
           <h1 className="text-2xl font-semibold tracking-tight text-white">
             Training Content Systems
           </h1>
-          <p className="mt-1 text-sm text-slate-400">
+          <p className="mt-1 text-base text-slate-200">
             Version compliance, feedback metrics, and health indicators
           </p>
-          <p className="mt-2 text-xs text-slate-500">
+          <p className="mt-2 text-sm text-slate-400">
             Data as of {versionCompliance.generated} · Sample data for demo
           </p>
         </div>
@@ -61,7 +61,6 @@ export default function DashboardPage() {
   );
 }
 
-// Types for loaded JSON (match public/data/*.json)
 export interface VersionCompliance {
   generated: string;
   latestVersion: string;
