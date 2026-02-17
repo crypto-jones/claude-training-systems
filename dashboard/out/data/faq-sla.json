@@ -1,0 +1,9 @@
+{
+  "generated": "2026-02-16",
+  "period": { "from": "2026-01-01", "to": "2026-02-16" },
+  "questionsLogged": 14,
+  "questionsAnsweredWithinSla": 14,
+  "slaAdherencePct": 100,
+  "avgDaysToAnswer": 4,
+  "slaDays": 14
+}

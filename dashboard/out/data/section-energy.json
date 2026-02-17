@@ -1,0 +1,8 @@
+{
+  "generated": "2026-02-16",
+  "sections": [
+    { "name": "Opening", "avgEnergy": 4.1, "target": 3.0 },
+    { "name": "Exercises", "avgEnergy": 4.4, "target": 3.0 },
+    { "name": "Closing", "avgEnergy": 2.9, "target": 3.0 }
+  ]
+}

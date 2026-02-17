@@ -1,0 +1,18 @@
+{
+  "generated": "2026-02-16",
+  "period": { "from": "2026-01-01", "to": "2026-02-16" },
+  "sessionsTotal": 8,
+  "exercise1CompletionPct": 75.6,
+  "exercise2CompletionPct": 43.8,
+  "averageClosingEnergy": 2.9,
+  "feedbackSubmissionRatePct": 100,
+  "unansweredQuestionsPerSession": 1.8,
+  "setupIssueRatePct": 12.5,
+  "targets": {
+    "exercise1": 70,
+    "exercise2": 40,
+    "closingEnergy": 3.0,
+    "submissionRate": 85,
+    "unansweredMax": 2
+  }
+}
