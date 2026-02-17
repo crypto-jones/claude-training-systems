@@ -83,7 +83,7 @@ flowchart TD
     E --> F
     F --> G
     G --> H
-    H -->|"Content decisions\nfor next version"| A
+    H -->|"Content decisions<br/>for next version"| A
 
     style A fill:#1F4E79,color:#fff
     style B fill:#2E75B6,color:#fff
