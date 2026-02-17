@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && npx gh-pages -d out"
+    "deploy": "npm run build && npx gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "next": "14.2.18",
